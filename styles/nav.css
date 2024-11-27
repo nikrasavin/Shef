@@ -1,0 +1,84 @@
+.nav {
+    box-shadow: 0 0 16px var(--color-gray);
+    position: sticky;
+    top: 0px;
+    background-color: var(--color-light);
+    z-index: 100;
+    max-width: 100%;
+  }
+  
+  .nav-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+  }
+  
+  .nav-logo {
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+
+  }
+  
+  .nav-cabinet {
+    display: flex;
+  }
+  
+  .nav-element {
+    margin: auto 0.7rem;
+  }
+  
+  /* .nav-button {
+    font-size: 0.8rem;
+    font-weight: 600;
+  } */
+
+  .hamburger-button {
+    background-color: var(--color-light);
+    color: var(--color-main);
+    padding: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    border: none;
+ }
+
+ .nav-links {
+  display: none;
+  background-color: var(--color-lightergray);
+  color: white;
+}
+.nav-links a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  background-color: var(--color-lightergray);
+}
+
+.nav-buttons button{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 0px 7px 0px 7px;
+}
+.nav-button-red {
+  background-color: var(--color-main); 
+  border: none;
+  color: white;
+}
+
+.nav-button-red:hover {
+  background-color: #6d1d1d;
+  color: white;
+}
+
+.nav-button-gray {
+  background-color: var(--color-lightergray); 
+  color: var(--color-darkergray);
+}

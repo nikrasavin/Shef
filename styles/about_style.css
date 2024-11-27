@@ -1,0 +1,166 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..//assets/about/background.jpg);
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+}
+
+/* 1 блок */
+.about__block1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    min-height: 550px;
+    height: 100vh;
+}
+
+.about__block1__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: white;
+}
+
+.about__block1__content h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.about__block1__content h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.about__block1__content-p {
+    padding-top: 70px;
+    max-width: 800px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.about__block1__content-p p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.about__block {
+    min-height: 80vh;
+    margin: 3rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* 2 блок */
+.about__block2__img {
+    width: 477px;
+    height: 716px;
+    border-radius: 10px;
+}
+
+.about__block2-content {
+    margin-left: 20px;
+    width: 470px;
+    background-color: #2E251C;
+    color: white;
+    height: 494px;
+    padding-left: 60px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+
+.about__block2-content-h {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about__block2-content-h h1 {
+    font-size: 30px;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+.about__block2-content p{
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 450;
+}
+
+/* 3 блок */
+
+.about__block3__img {
+    width: 480px;
+    height: 720px;
+    border-radius: 10px;
+}
+
+.about__block3-content {
+    margin-right: 60px;
+    width: 644px;
+    background-color: #2E251C;
+    color: white;
+    height: 771px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+}
+
+.about__block3-content-h {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.about__block3-content-h h1 {
+    font-size: 30px;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+.about__block3-content p{
+    font-size: 19px;
+    padding-top: 0px;
+    font-weight: 450;
+}
+
+/* блок 4 */
+
+.about__block4__img {
+    width: 477px;
+    height: 716px;
+    border-radius: 10px;
+}
+
+.about__block4-content {
+    margin-left: 40px;
+    width: 470px;
+    background-color: #2E251C;
+    color: white;
+    height: 773px;
+    padding-left: 60px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+.about__block4-content-h {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.about__block4-content-h h1 {
+    font-size: 30px;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+.about__block4-content p{
+    font-size: 19px;
+    padding-top: 7px;
+    font-weight: 450;
+}

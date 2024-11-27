@@ -1,0 +1,49 @@
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../become_styles/become_block2.jpg);
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+}
+
+.block2 {
+    min-height: 550px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block2-content {
+    text-align: left;
+    width: 760px;
+    height: 437px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.block2-content-text {
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.block2-content-text h1{
+    padding-top: 10px;
+    font-weight: 650;
+    font-size: 42px;
+}
+
+.block2-content-text p{
+    font-size: 21px;
+    padding-top: 25px;
+    font-weight: 350;
+}
+
+.container {
+    background-color: #fff;
+}

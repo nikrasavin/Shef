@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сервисный центр</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/help.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-panel container">
+        <div class="nav-sheff">
+          <div id="hamburger-menu">
+            <button class="hamburger-button">☰</button>
+            <div class="nav-links">
+              <a href="#">Home</a>
+              <a href="#">Services</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-logo">
+          <a href="index.html">
+            <img
+              src="assets/navbar/logo.jpg"
+              width="100"
+              height="50"
+              alt="Sheff"
+            />
+          </a>
+        </div>
+        <div class="nav-buttons">
+          <button class="button nav-button-gray">Log in</button>
+          <button class="button nav-button-red">Sign up</button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="wrapper">
+        <div class="contactus container">
+          <h1>Свяжитесь с нами</h1>
+          <h2>
+            Наши менеджеры всегда готовы помочь с <br />
+            решением любого вопроса
+          </h2>
+          <div class="contactus__container">
+            <div class="contactus__info">
+              <h4>+7-999-397-37-33</h4>
+              <h4>cheff.pro@yandex.ru</h4>
+              <div class="contactus__social-symbols">
+                <div class="socials-symbols">
+                  <a href="#" class="contactus__icon-link icon-link">
+                    <div>
+                      <img
+                        src="	https://static.tildacdn.com/tild6164-6235-4664-a162-363638333961/whatsapp.png"
+                        alt="whatsapp"
+                        width="30px"
+                        height="30px"
+                      />
+                    </div>
+                  </a>
+                  <a href="#" class="icon-link">
+                    <div>
+                      <img
+                        src="https://static.tildacdn.com/tild3731-3134-4335-b038-633831316537/telegram.png"
+                        alt="telegram"
+                        width="30px"
+                        height="30px"
+                      />
+                    </div>
+                  </a>
+                  <a href="#" class="icon-link">
+                    <div>
+                      <img
+                        src="	https://static.tildacdn.com/tild6661-6566-4136-b039-613631333434/instagram.png"
+                        alt="Instagram"
+                        width="30px"
+                        height="30px"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="contactus__form">
+              <form action="mail.php" method="post">
+                <span>Ваше имя</span>
+                <input
+                  class="input__main"
+                  type="text"
+                  name="name"
+                  placeholder="Имя"
+                  required
+                />
+                <span>Ваш Email</span>
+                <input
+                  class="input__main"
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+                <span>Ваш номер телефона</span>
+                <input
+                  class="input__main"
+                  type="text"
+                  id="phone"
+                  placeholder="+7(999)999-9999"
+                  required
+                />
+                <div class="checkbox__privacy">
+                  <input
+                    class="privacy__input"
+                    type="checkbox"
+                    id="privacy__input2"
+                    name="privacy__input"
+                    required
+                  />
+                  <label class="privacy__label" for="privacy__input2"
+                    >Я согласен с политикой конфиденциальности</label
+                  >
+                </div>
+                <button class="button cook-button-red">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="questions contactus container">
+          <h1>Самые задаваемые вопросы</h1>
+          <h2>
+            Здесь вы сможете найти ответы на самые <br />
+            популярные вопросы
+          </h2>
+          <div class="questions__container">
+            <div class="questions__container-1">
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Как работает Шeff?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Шеff — это онлайн-платформа, которая соединяет домашних
+                  поваров с клиентами, желающими заказать домашнюю еду.
+                  Платформа предоставляет возможность шефам создавать
+                  собственное меню, устанавливать цены и управлять заказами, а
+                  клиентам — заказывать разнообразные блюда, приготовленные с
+                  душой.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Как я узнаю, что мое меню доступно для клиентов?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  После одобрения вашей учетной записи Шeff в вашем личном
+                  кабинете появится раздел «Рабочее время». Выберите дни, когда
+                  вы хотите работать, и нажмите "Сохранить ваш график». После
+                  этого ваше меню станет доступным на сайте Шeff.ru
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Как стать шеffом?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Перейдите на страницу "Стать шеffом" и зарегистрируйтесь,
+                  чтобы узнать, проводится ли набор шеffов в вашем регионе. Если
+                  да, вы получите доступ к личному кабинету, где сможете создать
+                  меню, предоставить сертификат о прохождении курса по
+                  безопасности пищевых продуктов, написать краткую биографию,
+                  загрузить фотографию, настроить информацию о доставке и
+                  привязать карту для получения платежей.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>
+                    Моя учетная запись одобрена, почему мое меню не отображается
+                    на сайте?
+                  </h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Убедитесь, что вы сохранили дни своей доступности в разделе
+                  «Мой график» личного кабинета. Ваше меню будет отображаться на
+                  сайте в выбранных вами категориях кухни.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Что такое пробный шеff и как проходит пробный период?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  В некоторых городах новые шефы проходят пробный период, в
+                  течение которого их меню доступно только постоянным клиентам
+                  Шeff. После получения 3-5 положительных отзывов шефы проходят
+                  пробный период, и их меню становится доступным для всех
+                  клиентов.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Какие блюда нельзя предлагать в меню?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Запрещено предлагать сырые морепродукты, замороженные
+                  продукты, сырые теста или смеси, алкоголь, а также блюда с
+                  выбором ингредиентов (например, бенто с опцией выбора между
+                  стейком, курицей или тофу). Каждый вариант должен быть
+                  отдельным блюдом в меню.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Нужно ли мне фотографировать свои блюда?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Да, вы должны предоставить фотографии своих блюд. Команда Шeff
+                  отредактирует их, разместив на фоне. Следуйте рекомендациям по
+                  фотосъемке: используйте тарелки или миски, фотографируйте
+                  сверху, чтобы весь сосуд был в кадре, и избегайте обрезки
+                  краев.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Как я получу оплату за свои заказы?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Шeff использует переводы для обработки платежей. Вы должны
+                  предоставить данные банковского счета для получения платежей.
+                  Выплаты производятся ежедневно после подтверждения выполнения
+                  заказов и могут занять от 1 до 5 дней для поступления на ваш
+                  счет, в зависимости от вашего банка.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+            </div>
+
+            <div class="questions__container-2">
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>
+                    Почему некоторые блюда отсутствуют в моем меню для клиентов?
+                  </h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Возможно, некоторые блюда не доступны в определенные дни. Вы
+                  можете настроить доступность каждого блюда по дням в разделе
+                  «Мой график» личного кабинета.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>
+                    Какие шаги остались для завершения моей заявки на шеff?
+                  </h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Проверьте статью "Контрольный список заявки на шeffа" для
+                  получения информации о необходимых шагах. После завершения
+                  всех шагов команда Шeff обычно рассматривает и одобряет заявку
+                  в течение 2-3 дней.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Почему мои блюда находятся в статусе "Черновик"?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Новые блюда обычно рассматриваются и одобряются в течение 5
+                  дней. Если вы видите надпись "Изменения ожидают рассмотрения",
+                  это означает, что команда Шeff хочет внести правки в ваше
+                  блюдо или уточнить некоторые детали. Нажмите "Редактировать
+                  блюдо", затем "Комментарий" в правом верхнем углу, чтобы
+                  увидеть вопросы и предоставить ответы.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Как я могу изменить или удалить свою учетную запись?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  На главной странице Шeff.ru нажмите на меню в левом верхнем
+                  углу, затем "Профиль". Внизу страницы нажмите "Удалить вашу
+                  учетную запись", чтобы удалить все данные. Если вы хотите
+                  временно приостановить активность, свяжитесь с командой
+                  поддержки для деактивации учетной записи с возможностью
+                  восстановления в будущем.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Могу ли я редактировать свое меню в любое время?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Да, вы можете в любое время редактировать, удалять или
+                  добавлять блюда в свое меню.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Как восстановить или изменить пароль?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Если вы забыли пароль или хотите его изменить, выполните
+                  следующие шаги: <br />
+                  <br />
+                  Перейдите на страницу входа в ваш аккаунт. Нажмите на ссылку
+                  "Забыли пароль?". <br />
+                  Введите адрес электронной почты, связанный с вашим аккаунтом.
+                  <br />
+                  Следуйте инструкциям, отправленным на вашу почту, чтобы
+                  сбросить пароль. <br />
+                  Если вы уже вошли в аккаунт и хотите изменить пароль:
+                  <br /><br />
+                  Перейдите в настройки аккаунта. <br />
+                  Выберите раздел "Безопасность". <br />
+                  Нажмите "Изменить пароль". <br />
+                  Введите текущий пароль, затем новый пароль и подтвердите его.
+                  <br />
+                  Сохраните изменения.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>Как изменить адрес электронной почты?</h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Чтобы изменить адрес электронной почты, связанный с вашим
+                  аккаунтом: <br /><br />
+                  Войдите в свой аккаунт. <br />
+                  Перейдите в настройки аккаунта. <br />
+                  Выберите раздел "Личные данные" или "Контактная информация".
+                  <br />
+                  Найдите поле с текущим адресом электронной почты и нажмите
+                  "Изменить". <br />
+                  Введите новый адрес электронной почты и подтвердите его.
+                  <br />
+                  Возможно, потребуется подтвердить изменение через письмо,
+                  отправленное на новый адрес. <br />
+                  Как отписаться или подписаться на электронные письма и
+                  сообщения? <br />
+                  Чтобы управлять подписками на рассылки: <br /><br />
+                  Войдите в свой аккаунт. <br />
+                  Перейдите в настройки аккаунта. <br />
+                  Выберите раздел "Уведомления" или "Настройки рассылки". <br />
+                  Отметьте или снимите отметки с типов уведомлений, которые вы
+                  хотите получать или от которых хотите отписаться. <br />
+                  Сохраните изменения.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+              <div class="questions__q">
+                <div class="questions__header">
+                  <h2>
+                    Как получить сертификат о безопасности пищевых продуктов?
+                  </h2>
+                  <div class="plus plus-transform"></div>
+                </div>
+                <p class="questions__body">
+                  Для обеспечения безопасности клиентов и соответствия
+                  санитарным нормам, шефы должны пройти обучение и получить
+                  сертификат о безопасности пищевых продуктов. Процесс получения
+                  сертификата может различаться в зависимости от региона, но
+                  общие шаги следующие:
+                  <br /><br />
+                  Выбор аккредитованного курса: <br />
+                  Найдите онлайн-курс или учебное заведение, аккредитованное
+                  местными органами здравоохранения. <br />
+                  Убедитесь, что курс соответствует требованиям вашего региона.
+                  <br />
+                  Прохождение обучения: <br />
+                  Зарегистрируйтесь на выбранный курс. <br />
+                  Изучите материалы, охватывающие темы гигиены, хранения
+                  продуктов, предотвращения перекрестного загрязнения и других
+                  аспектов безопасности пищевых продуктов. <br />
+                  Сдача экзамена: <br />
+                  После завершения обучения сдайте экзамен для подтверждения
+                  полученных знаний. <br />
+                  Получение сертификата: <br />
+                  При успешной сдаче экзамена вы получите сертификат,
+                  подтверждающий вашу компетентность в области безопасности
+                  пищевых продуктов. <br />
+                  Обратите внимание, что некоторые регионы могут требовать
+                  периодического обновления сертификата. Рекомендуется
+                  ознакомиться с местными требованиями и следить за сроками
+                  действия вашего сертификата.
+                </p>
+              </div>
+              <hr class="questions-hr" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="container-footer">
+          <hr class="footer-hr" />
+
+          <div class="footer-links">
+            <div class="footer-links-column-1">
+              <div class="content-links">
+                <h3>Шеff</h3>
+                <div class="socials-symbols">
+                  <a href="#" class="icon-link">
+                    <div>
+                      <img
+                        src="https://static.tildacdn.com/tild6564-3265-4937-b637-653033646565/image2.svg"
+                        alt="Вконтакте"
+                      />
+                    </div>
+                  </a>
+                  <a href="#" class="icon-link">
+                    <div>
+                      <img
+                        src="https://static.tildacdn.com/tild6230-6363-4732-b831-623338353537/image16.svg"
+                        alt="YouTube"
+                      />
+                    </div>
+                  </a>
+                  <a href="#" class="icon-link">
+                    <div>
+                      <img
+                        src="https://static.tildacdn.com/tild3534-6639-4739-a430-623035626130/image15.svg"
+                        alt="Instagram"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="footer-link-1">
+                  <h4 href="#">© 2024 Шеff</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-links-column-2">
+              <div class="content-links">
+                <h2>О компании</h2>
+                <div class="footer-link">
+                  <a href="about.html">Наша история</a>
+                </div>
+                <div class="footer-link">
+                  <a href="#">Безопасность еды</a>
+                </div>
+                <div class="footer-link">
+                  <a href="help.html">Сервисный центр</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-links-column-3">
+              <div class="content-links">
+                <h2>Информация</h2>
+                <div class="footer-link"><a href="#">Как стать шеffом</a></div>
+                <div class="footer-link">
+                  <a href="#">Условия обслуживания</a>
+                </div>
+                <div class="footer-link">
+                  <a href="#">Политика конфиденциальности</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/slide.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/just-validate.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

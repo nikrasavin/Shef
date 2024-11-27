@@ -1,0 +1,136 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 55px;
+    background-color: var(--color-lightred);
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  
+  hr {
+    display: block;
+    border: 0;
+    margin: 0;
+    padding-bottom: 30px;
+    height: 2px;
+    border-top: 1px solid var(--color-gray);
+  }
+  
+  .footer-links {
+    padding: 12px 0;
+    display: flex;
+    column-gap: 12px;
+    flex-flow: row;
+  }
+  
+  .footer-links-column-1 {
+    flex-basis: 33.3333%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+  }
+
+  .content-links {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+  }
+
+  .footer-links-column-2 {
+    flex-basis: 28.3333%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+  }
+
+  .footer-links-column-3 {
+    flex-basis: 15%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+  }
+  
+  .footer-links-column-1 h3 {
+    color: var(--color-darkergray);
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .footer-links h2 {
+    color: var(--color-darkergray);
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .footer-link {
+    padding: 3px 0;
+    color: var(--color-light);
+    font-size: 0.8125rem;
+  }
+  
+  .footer-legal {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+  
+  
+  .hashtag {
+    display: inline-block;
+    font-size: medium;
+  }
+  
+  .hashtag::before {
+    content: '#';
+    color: var(--color-main);
+  }
+  
+  .socials-symbols {
+    display: flex;
+    gap: 10px;
+    padding-top: 6px;
+    padding-bottom: 13px;
+  }
+  
+  .footer a {
+    color: var(--color-light);
+  }
+  
+  .footer a:hover {
+    color: var(--color-gray);
+  }
+  
+  .footer a:active {
+    color: var(--color-main);
+  }
+  
+  .footer-dw-labels {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+  }
+
+  .footer-link-1 h4{
+    color: var(--color-darkergray);
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* .lang-selector {
+      width: 176px;
+    } */
+  }
+  
+  @media screen and (max-width: 576px) {
+    .footer-links {
+      flex-flow: column;
+    }
+    .footer-links-column {
+      flex-basis: 100%;
+    }
+    .footer-legal {
+      flex-flow: column nowrap;
+    }
+  }

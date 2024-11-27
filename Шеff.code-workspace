@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../phpmailer"
+		},
+		{
+			"path": "../js"
+		}
+	],
+	"settings": {}
+}

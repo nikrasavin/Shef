@@ -1,0 +1,83 @@
+.container-begin {
+	text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../become_styles/become_block1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    min-height: 550px;
+    height: 100vh;
+}
+
+.container-begin-content{
+  color: white;
+  font-weight: 500;
+  display: flex;
+  flex-flow: row;
+  flex-basis: 50%;
+  align-items: flex-end;
+}
+
+
+.container-h {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 100%;
+    align-items: flex-end;
+}
+
+.container-h14 {
+    text-align: left;
+}
+.container-h1 h1{
+  font-size: 52px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.container-h4 {
+  padding-top: 10px;
+}
+
+.container-h4 h4{
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.begin-buttons {
+  padding-top: 100px;
+  align-items: flex-start;
+  padding-right: 150px;
+}
+
+.begin-buttons form{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 0px 10px 0px 10px;
+}
+.begin-button-red {
+  background-color: var(--color-main); 
+  border: none;
+  color: white;
+  padding: 10px 57px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.begin-button-red:hover {
+  background-color: #6d1d1d;
+  color: white;
+}
+
+.begin-button-white {
+  background-color: #8a8a8a; 
+  color: white;
+  padding: 10px 57px;
+  border-radius: 15px;
+  border-color: transparent;
+  font-weight: 600;
+}
