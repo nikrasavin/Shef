@@ -1,0 +1,91 @@
+.referral-system {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/referral_assets/loon-image-original.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0px;
+  min-height: 550px;
+  height: 100vh;
+}
+
+.referral-system span {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.referral-system h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-top: 5rem;
+}
+
+.referral-system p {
+  font-size: 24px;
+  max-width: 700px;
+  margin-top: 1rem;
+}
+
+.referral-content {
+  min-height: 550px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  margin: 3rem 0rem;
+}
+
+.referral-content__article {
+  text-align: left;
+  margin: 0rem 4rem;
+}
+
+.referral-content__article h1 {
+    margin-top: 1rem;
+  font-size: 30px;
+  font-weight: 700;
+  max-width: 400px;
+}
+
+.referral-content__article p {
+  font-size: 18px;
+  margin-top: 2rem;
+  max-width: 510px;
+}
+
+.referral-content__img {
+  width: 729px;
+  height: 550px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+#img1 {
+  background: url("../assets/about/block2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#img2 {
+  background: url("../assets/referral_assets/loon-image-original\ \(6\).jpg")
+    no-repeat center center;
+  background-size: cover;
+}
+
+#img3 {
+  background: url("../assets/referral_assets/loon-image-original\ \(31\).jpg")
+    no-repeat center center;
+  background-size: cover;
+}
+
+#img4 {
+    background: url("../assets/referral_assets/loon-image-original\ \(3\).jpg")
+      no-repeat center center;
+    background-size: cover;
+  }
